@@ -5,7 +5,7 @@ To generate a De Bruijn graph (in DOT format) from a FASTA file, run `DeBruijnGr
 ```
 usage: 
 
-    DeBruijnGraph_generator.py [-h / --help] [-v/ --version] [-o / --ofile FILE] [-k / --kmer k-mer length] [-l / --seqLen sequence length] [-a / --alnNum alignment number] sequence FATA file
+    DeBruijnGraph_generator.py [-h / --help] [-v/ --version] [-o / --ofile FILE] [-k / --kmer k-mer length] [-l / --seqLen sequence length] [-a / --alnNum alignment number] sequence FASTA file
 ```
 
 

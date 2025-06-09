@@ -6,7 +6,7 @@ import getopt
 import os
 
 queue = []     #Initialize a queue
-USAGE = '''usage: trie_generator.py [-h / --help] [-v/ --version] [-o / --ofile FILE] [-l / --seqLen sequence length] [-a / --alnNum alignment number] sequence FATA file'''
+USAGE = '''usage: trie_generator.py [-h / --help] [-v/ --version] [-o / --ofile FILE] [-l / --seqLen sequence length] [-a / --alnNum alignment number] sequence FASTA file'''
 
 alignment_len = -1
 node_idx = 0
