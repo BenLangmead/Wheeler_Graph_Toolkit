@@ -20,3 +20,5 @@ visualizer/out__*
 visualizer/*.dot
 generator/MultiSeqWG_generator/
 generator/PrefixSortedGraph/
+target
+.z3-trace

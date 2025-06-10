@@ -4,4 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-z3 = "0.12"
+z3 = { version = "0.12", features = ["static-link-z3"] }
+
+[[bin]]
+name = "wgt-recognizer"
+path = "src/wgt-recognizer.rs"
