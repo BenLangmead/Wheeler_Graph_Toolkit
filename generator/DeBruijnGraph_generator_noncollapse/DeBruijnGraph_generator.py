@@ -6,7 +6,7 @@ import getopt
 import os
 
 queue = []     #Initialize a queue
-USAGE = '''usage: DeBruijnGraph_generator.py [-h] [-v] [-o / --ofile FILE] [-k / --kmer k-mer length] [-l / --nodeLen sequence length] [-a / --alnNum alignment number] sequence FATA file'''
+USAGE = '''usage: DeBruijnGraph_generator.py [-h] [-v] [-o / --ofile FILE] [-k / --kmer k-mer length] [-l / --nodeLen sequence length] [-a / --alnNum alignment number] sequence FASTA file'''
 
 def main(argv):
     ##############################
